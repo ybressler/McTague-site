@@ -141,7 +141,7 @@ body {
 
 .title {
   font-size: 50px;
-  margin: 10px;
+  /* margin: 10px; */
   text-align: left;
   font-size: 50px;
 }
@@ -155,7 +155,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  margin: 40px 0px 15px 60px;
+  margin: 40px 0px 15px 30px;
   padding-right: 10px;
 }
 
@@ -167,7 +167,7 @@ header {
 }
 
 #home {
-  padding-left: 350px;
+  padding-left: 400px;
 }
 
 .series-name {
@@ -231,7 +231,7 @@ header {
 }
 
 .bio-container {
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -241,21 +241,43 @@ header {
 
 .bio {
   display: flex;
-  /* flex-direction: column; */
-  justify-content: left;
-  width: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.paragraph{
   font-size: 20px;
-  /* flex-flow: column wrap; */
+  margin-bottom: 40px;
 }
 
 #headshot {
   background-image: url("images/headshot.jpg");
-  height: 600px;
+  height: 550px;
   width: 30%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blurb-container{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  width: 80%;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.par2{
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-style: italic;
 }
 
 .contact {
@@ -263,7 +285,23 @@ header {
   margin-top: 40px;
 }
 
+.fa-facebook {
+  color: darkslategray;
+}
+
+#social {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
 .copywright {
   text-align: center;
   margin-top: 20px;
 }
+
+/* @media(max-width:500px){
+  .home{
+
+  }
+
+} */
