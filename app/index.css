@@ -131,7 +131,7 @@ body {
 
 @font-face {
   font-family: Alchemist;
-  src: url(sansation_light.woff);
+  src: url(fonts/Alchemist\ Serif\ Font.otf);
 }
 
 .landingImg {
@@ -145,9 +145,9 @@ body {
 }
 
 .title {
-  font-size: 50px;
+  font-size: 60px;
   text-align: left;
-  font-family: ;
+  font-family: Alchemist;
 }
 
 header {
@@ -166,11 +166,12 @@ header {
   text-decoration: none;
   color: black;
   font-size: 25px;
+  font-family: Alchemist;
   margin: 0px 0px 0px 10px;
 }
 
 #home-menu {
-  padding-left: 625px;
+  padding-left: 550px;
 }
 
 #home {
