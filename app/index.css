@@ -344,6 +344,7 @@ header {
 
 .fa-instagram {
   color: darkslategray;
+  text-decoration: none;
 }
 
 .social {
@@ -370,6 +371,7 @@ social:hover {
   transition: 0.5s;
 }
 
+
 #copyright {
   text-align: center;
   font-size: 15px;
@@ -378,8 +380,23 @@ social:hover {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .landingImg {
-    width: 475px;
-    height: 300px;
+    width: 450px;
+    height: 400px;
     align-items: center;
+    margin: 0px auto;
   }
+  .title{
+    font-size: 30px;
+    text-align: center;
+  }
+  /* .header{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  } */
+  /* .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  } */
 }
