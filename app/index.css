@@ -306,18 +306,37 @@ header {
   font-style: italic;
 }
 
+#publication-container {
+  margin-top: 30px;
+  text-align: center;
+  font-family: Alchemist;
+  font-size: 35px;
+}
+
+.publications {
+  text-decoration: none;
+  color: #483D8B;
+  font-weight: 700;
+}
+
 .covers-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
-.book-covers {
-  width: 250px;
+.book-cover {
+  width: 200px;
   height: 300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* #book1{
+  padding-left: 100px;
+} */
 
 .footer {
   margin-top: 20px;
@@ -347,11 +366,23 @@ header {
   text-decoration: none;
 }
 
+.fa-amazon{
+  color: darkslategray;
+  text-decoration: none;
+}
+
 .social {
   text-decoration: none;
   margin-left: 20px;
 }
 
+#instagram{
+  margin-left: 600px;
+}
+
+#amazon{
+  margin-right: 600px;
+}
 /* li {
   list-style: none;
   margin: 10px 30px;
@@ -365,16 +396,23 @@ header {
   transition: 0.5s;
 } */
 
-social:hover {
+/* social:hover {
   color: grey;
   border: 1px solid black;
   transition: 0.5s;
-}
-
+} */
 
 #copyright {
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: Alchemist;
+  margin-right: 610px;
+}
+
+#c{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 610px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -385,7 +423,7 @@ social:hover {
     align-items: center;
     margin: 0px auto;
   }
-  .title{
+  .title {
     font-size: 30px;
     text-align: center;
   }
