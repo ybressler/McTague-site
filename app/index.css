@@ -136,11 +136,11 @@ body {
 
 .landingImg {
   background-image: url("images/landing1.jpg");
-  height: 700px;
+  height: 950px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px 20px 0px 20px;
+  margin: 30px 20px 0px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -175,7 +175,7 @@ header {
 }
 
 #home {
-  padding-left: 500px;
+  padding-left: 475px;
 }
 
 #about {
@@ -188,6 +188,10 @@ header {
 
 #words {
   border-bottom: black solid;
+}
+
+#nav-icon {
+  font-size: 30px;
 }
 
 .series-name {
@@ -254,7 +258,7 @@ header {
 }
 
 .bio-container {
-  margin-top: 60px;
+  margin-top: 80px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -320,6 +324,7 @@ header {
 }
 
 .footer-container {
+  margin-top: 75px;
   display: flex;
   flex-direction: column;
 }
@@ -328,6 +333,7 @@ header {
   display: flex;
   justify-content: space-around;
   margin: 10px;
+  font-size: 80px;
 }
 
 .contact {
@@ -343,7 +349,6 @@ header {
 .social {
   text-decoration: none;
   margin-left: 20px;
-  font-size: 50px;
 }
 
 /* li {
