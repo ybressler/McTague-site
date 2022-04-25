@@ -137,33 +137,13 @@ a:hover {
   color: lightsteelblue;
 }
 
-/* .body {
-  width: 100%;
-  display: flex;
-  background: lightsteelblue; */
-/* padding: 50px; */
-/* box-sizing: border-box; */
-
-/* .header-container {
-  flex: 1;
-  background: pink;
-} */
-/* .header {
-  flex: 1;
-  background: green;
-} */
-/* .nav-container {
-  flex: 1;
-  background: yellow;
-} */
-
 .landingImg {
   background-image: url("images/landing1.jpg");
   height: 950px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 30px 20px 0px 20px;
+  margin: 30px 20px 60px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -171,6 +151,7 @@ a:hover {
   font-size: 60px;
   text-align: left;
   font-family: Alchemist;
+  margin-left: 10px;
 }
 
 header {
@@ -194,7 +175,7 @@ header {
 }
 
 #home-menu {
-  padding-left: 550px;
+  padding-left: 600px;
 }
 
 #home {
@@ -359,7 +340,6 @@ header {
 
 #link-container {
   margin-left: 5px;
-  /* font-size: 17px; */
   font-style: normal;
   font-weight: 700;
 }
@@ -446,7 +426,6 @@ header {
   margin-right: 620px;
 }
 
-
 #copyright {
   text-align: center;
   font-size: 20px;
@@ -461,74 +440,3 @@ header {
   margin-left: 600px;
   margin-top: 12px;
 }
-
-/* @media (min-width: 576px) { ... }
-@media (min-width: 768px) { ... }
-@media (min-width: 992px) { ... }
-@media (min-width: 1200px) { ... } */
-
-/* @media (min-width: 40em) {
-  .home-section {
-    flex-direction: row;
-  }
-  .home-section > * {
-    flex-basis: 100%;
-  }
-  .home-section > * + * {
-    margin-left: 2em; */
-  /* }
-  .footer-el {
-    flex-direction: row;
-  }
-  .footer-el > * {
-    flex-basis: 100%;
-  }
-  .footer-el > * + * {
-    margin-left: 2em;
-  } */
-
-/* @media screen and (max-width: 768px) {
-  .body {
-    width: 100%;
-    display: flex;
-    background: lightsteelblue;
-    padding: 50px;
-    box-sizing: border-box;
-  }
-  .header-container {
-    flex: 1;
-    background: pink;
-  }
-  .header {
-    flex: 1;
-    background: green;
-  }
-  .nav-container {
-    flex: 1;
-    background: yellow;
-  }
-} */
-
-/* @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-/* .landingImg { */
-/* width: 450px; */
-/* height: 400px; */
-/* align-items: center; */
-/* margin: 0px auto; */
-/* } */
-/* .title { */
-/* font-size: 30px; */
-/* text-align: center; */
-/* } */
-/* .header{
-    display: flex;
-    flex-direction: column;
-    margin-right: 30px;
-  } */
-/* .nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  } */
-/* } */
