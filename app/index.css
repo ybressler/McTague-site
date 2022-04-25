@@ -268,16 +268,19 @@ header {
 
 .bio {
   display: flex;
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 50%;
   justify-content: space-evenly;
+  font-size: 20px;
 }
 
 .paragraph {
-  font-size: 20px;
   margin-bottom: 40px;
+}
+
+.bottom-paragraph{
+  margin-bottom: 20px;
 }
 
 #headshot {
@@ -306,8 +309,26 @@ header {
   font-style: italic;
 }
 
+#bottom-blurb{
+  margin-bottom: 10px;
+}
+
+#link-container{
+  margin-left: 20px;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Alchemist;
+  font-weight: bold;
+}
+
+#review-link{
+  margin-left: 5px;
+  text-decoration: none;
+  color: darkslateblue;
+}
+
 #publication-container {
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
   font-family: Alchemist;
   font-size: 35px;
@@ -315,7 +336,7 @@ header {
 
 .publications {
   text-decoration: none;
-  color: #483D8B;
+  color: #483d8b;
   font-weight: 700;
 }
 
@@ -334,16 +355,9 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* #book1{
-  padding-left: 100px;
-} */
-
-.footer {
-  margin-top: 20px;
-}
 
 .footer-container {
-  margin-top: 75px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -355,10 +369,11 @@ header {
   font-size: 80px;
 }
 
-.contact {
+#contact {
   text-align: center;
-  margin-top: 40px;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: Alchemist;
+  margin: 30px 450px 30px 450px
 }
 
 .fa-instagram {
@@ -366,7 +381,7 @@ header {
   text-decoration: none;
 }
 
-.fa-amazon{
+.fa-amazon {
   color: darkslategray;
   text-decoration: none;
 }
@@ -376,11 +391,11 @@ header {
   margin-left: 20px;
 }
 
-#instagram{
+#instagram {
   margin-left: 600px;
 }
 
-#amazon{
+#amazon {
   margin-right: 600px;
 }
 /* li {
@@ -402,6 +417,10 @@ header {
   transition: 0.5s;
 } */
 
+#copyright-container{
+  margin-top: 20px;
+}
+
 #copyright {
   text-align: center;
   font-size: 20px;
@@ -409,7 +428,7 @@ header {
   margin-right: 610px;
 }
 
-#c{
+#c {
   text-align: center;
   font-size: 20px;
   margin-left: 610px;
