@@ -134,6 +134,10 @@ body {
   src: url(fonts/Alchemist\ Serif\ Font.otf);
 }
 
+a:hover {
+  color: lightsteelblue;
+}
+
 .landingImg {
   background-image: url("images/landing1.jpg");
   height: 950px;
@@ -326,13 +330,17 @@ header {
   font-weight: 700;
 }
 
+#interview-link a:hover {
+  background-color: lightskyblue;
+}
+
 #bottom-blurb {
   margin-bottom: 10px;
 }
 
 #link-container {
   margin-left: 5px;
-  font-size: 17px;
+  /* font-size: 17px; */
   font-style: normal;
   font-weight: 700;
 }
@@ -341,6 +349,10 @@ header {
   margin-left: 5px;
   text-decoration: none;
   color: #800000;
+}
+
+#review-link a:hover {
+  color: lightsteelblue;
 }
 
 #publication-container {
