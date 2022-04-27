@@ -153,7 +153,7 @@ a:hover {
 }
 
 .header {
-  margin: 30px 30px 10px 30px;
+  margin: 30px 30px 60px 30px;
 }
 
 .header-container {
@@ -171,20 +171,13 @@ a:hover {
   margin: 7px;
 }
 
-#about {
-  border-bottom: black solid;
-}
-
-#visuals {
-  border-bottom: black solid;
-}
-
-#words {
+.border-bottom {
   border-bottom: black solid;
 }
 
 #nav-icon {
   font-size: 30px;
+  margin: 3px;
 }
 
 .series-name {
@@ -216,7 +209,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 40px;
 }
 
@@ -230,19 +223,14 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#TN-container {
+.TN-container {
   margin-top: 100px;
-}
-
-#last-series {
-  margin-bottom: 20px;
 }
 
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
   justify-content: space-evenly;
 }
 
@@ -250,7 +238,9 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: row wrap;
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -261,7 +251,7 @@ a:hover {
 }
 
 .bio-container {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -322,11 +312,11 @@ a:hover {
   margin-left: 8px;
 }
 
-#publication-container {
-  margin-top: 40px;
+.book-blurb {
   text-align: center;
   font-family: Alchemist;
   font-size: 35px;
+  margin-top: 20px;
 }
 
 .publications {
@@ -335,13 +325,12 @@ a:hover {
   font-weight: 700;
 }
 
-.covers-container {
+.book-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 50px;
-  margin-right: 300px;
-  margin-left: 300px;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 70px;
 }
 
 .book-cover {
@@ -373,13 +362,13 @@ a:hover {
   text-align: center;
   font-size: 25px;
   font-family: Alchemist;
-  width: 40%;
+  /* width: 40%; */
+  width: 500px;
 }
 
 .fa-instagram {
   color: darkslategray;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
 .fa-amazon {
@@ -389,7 +378,6 @@ a:hover {
 
 .social {
   text-decoration: none;
-  /* margin-left: 20px; */
 }
 
 #instagram {
@@ -401,7 +389,6 @@ a:hover {
 }
 
 #copyright-container {
-  margin-top: 10px;
   font-size: 20px;
   display: flex;
   flex-direction: row;
@@ -416,36 +403,39 @@ a:hover {
   margin-top: 15px;
   margin-right: 5px;
 }
-/* 
-@media (max-width: 480px) {
-  body {
-    background-image: url(images/landing1.jpg);
-  }
-} */
 
-@media (max-width: 500px) {
-  .landingImg {
-    height: 350px;
-  }
-  /* .nav-container .nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-  }  .header-container {
+
+@media (min-width: 481px) and (max-width: 888px) {
+  .header-container {
     display: flex;
     flex-direction: column;
-    
-  } */
-}
-
-/* @media (min-width: 481px) and (max-width: 1024px) {
-  body {
-    background-image: url(images/background-tablet.jpg);
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+  }
+  .landingImg {
+    height: 350px;
+    width: 100% auto;
+  }
+  .nav {
+    margin: 5px;
+  }
+  .bio-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bio{
+    width: 80%;
+  }
+  #headshot{
+    width: 80%;
+  }
+  .book-blurb{
+    font-size: 25px;
+  }
+  #contact{
+    width: 70%;
   }
 }
 
-@media (min-width: 1025px) {
-  body {
-    background-image: url(images/background-desktop.jpg);
-  }
-} */
