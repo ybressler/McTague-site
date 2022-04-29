@@ -208,6 +208,7 @@ a:hover {
 
 .TN-container {
   margin-top: 100px;
+  margin-bottom: 75px;
 }
 
 .row {
@@ -245,14 +246,13 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .description {
   font-size: 20px;
   margin-top: 5px;
 }
 
 .bio-container {
-  /* margin-top: 80px; */
+  margin-top: 80px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -270,7 +270,7 @@ a:hover {
 }
 
 .paragraph {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .bottom-paragraph {
@@ -292,7 +292,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px 50px 0px 50px;
+  margin: 75px 75px 0px 75px;
 }
 
 .blurb {
