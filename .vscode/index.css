@@ -404,7 +404,7 @@ a:hover {
   margin-right: 5px;
 }
 
-@media (min-width: 390px) and (max-width: 888px) {
+@media (min-width: 280px) and (max-width: 888px) {
   .header-container {
     display: flex;
     flex-direction: column;
