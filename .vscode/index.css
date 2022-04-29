@@ -437,3 +437,9 @@ a:hover {
     width: 70%;
   }
 }
+
+@media (min-width: 280) {
+  boby {
+    background-color: blue;
+  }
+}
