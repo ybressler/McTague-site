@@ -153,7 +153,7 @@ a:hover {
 }
 
 .header {
-  margin: 30px 30px 60px 30px;
+  margin: 30px 30px 70px 30px;
 }
 
 .header-container {
@@ -226,6 +226,7 @@ a:hover {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 5px;
+  margin-bottom: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -354,7 +355,7 @@ a:hover {
 
 .footer-el {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
   font-size: 70px;
 }
