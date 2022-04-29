@@ -145,6 +145,8 @@ a:hover {
   background-size: cover;
   margin: 0px 20px 0px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 100%;
+  display: block;
 }
 
 .title {
@@ -406,58 +408,42 @@ a:hover {
   margin-right: 5px;
 }
 
-@media (min-width: 280px) and (max-width: 888px) {
-  .header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 5px;
-  }
-  .landingImg {
-    height: 350px;
-    width: 100% auto;
-  }
-  .nav {
-    margin: 5px;
-  }
-  .bio-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .bio {
-    width: 80%;
-  }
-  #headshot {
-    width: 80%;
-  }
-  .book-blurb {
-    font-size: 25px;
-  }
-  #contact {
-    width: 70%;
-  }
+
+@media screen and (min-width: 200px) and (max-width: 900px) {
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
 }
+  .landingImg {
+  width: 100% auto;
+  height: 350px;
+}
+.nav {
+  margin: 5px;
+}
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bio {
+  width: 80%;
+}
+#headshot {
+  width: 80%;
+  margin-top: 10px;
+}
+.book-blurb {
+  font-size: 25px;
+}
+#contact {
+  width: 70%;
+} 
 
-/* @media (min-width: 768px) {
-  .nav{
-      max-height: none;
-      top: 0;
-      position: relative;
-      float: right;
-      width: fit-content;
-  }
-  .menu li{
-      float: left;
-  }
-  .menu a:hover{
-      background-color: transparent;
-      color: var(--gray);
-
-  } */
-
-@media (min-width: 280px) and (max-width: 412px) {
+/*@media (min-width: 375) {
   .header-container {
     display: flex;
     flex-direction: column;
@@ -465,14 +451,18 @@ a:hover {
     justify-content: space-evenly;
   }
   .title {
-    font-size: 40px;
+    font-size: 30px;
   }
   .landingImg {
-    height: 300px;
-    width: 100% auto;
+    height: 200px;
+    width: 50% auto;
   }
-  .nav {
+  .nav .series-name {
     margin: 2px;
     font-size: 15px;
   }
-}
+
+  #contact {
+    font-size: 15px;
+  }
+} */
