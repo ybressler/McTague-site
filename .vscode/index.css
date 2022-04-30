@@ -366,7 +366,6 @@ a:hover {
   text-align: center;
   font-size: 25px;
   font-family: Alchemist;
-  /* width: 40%; */
   width: 500px;
 }
 
@@ -455,7 +454,7 @@ a:hover {
     width: 100% auto;
     height: 550px;
   }
-}
+} 
 
 @media screen and (max-width: 540px) {
   .landingImg {
@@ -469,6 +468,47 @@ a:hover {
     width: 100% auto;
     height: 280px;
   }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3px;
+  }
+  .nav-container {
+    margin-top: 10px;
+  }
+
+.title {
+  font-size: 40px;
+}
+.nav {
+  font-size: 20px;
+}
+#nav-icon {
+  display: none;
+}
+.bio{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.blurb-container {
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  justify-content: center;
+}
+.blurb {
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.book-cover {
+  width: 100%;
+  height: 125px;
+}
 }
 
 @media screen and (max-width: 390px) {
@@ -486,7 +526,6 @@ a:hover {
   .nav-container {
     margin-top: 10px;
   }
-}
 
 .title {
   font-size: 40px;
@@ -510,6 +549,7 @@ a:hover {
 .book-cover {
   width: 100%;
   height: 125px;
+}
 }
 
 @media screen and (max-width: 375px) {
@@ -659,4 +699,4 @@ a:hover {
   .nav-container {
     margin-top: 5px;
   }
-}
+} */ */
